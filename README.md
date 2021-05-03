@@ -1,5 +1,5 @@
 <p align="left">
-  <img src="/images/UTSA_Logo_Website_UTSA_Logo_Left Justified.png" height="50" title="hover text">
+  <img src="/images/UTSA_Logo_Website_UTSA_Logo_Left Justified.png" height="100" title="hover text">
 </p>
 
 # Statistical Analysis of Sea Ice Extent in the Arctic Ocean using AMSR Passive Microwave Data
