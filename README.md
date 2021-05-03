@@ -22,9 +22,10 @@ Jupyter notebook file named "SIC_northern.ipynb" performs the following function
 ![](/images/temporal_analysis.png)
 ### (4) Dendrogram
 - Draw and analyze dendrograms to figure out the hierarchical structure of SIE by region and time.
-![](/images/Demdrograms.png)
+![](/images/Dendrograms.png)
 ### (5) Statistical moments (skewness and kurtosis)
 - Draw and analyze skeness and kurtosis of SIE with various smooth size
+- ![](/images/skewness_kurtosis.png)
 ### (5) Principal component analysis (PCA)
 - Reduce dimensions of SIC data by using PCA components
 ![](/images/PCA.png)
