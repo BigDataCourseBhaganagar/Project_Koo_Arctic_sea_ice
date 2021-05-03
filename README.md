@@ -7,9 +7,9 @@
 
 ## 2. Code capabilities
 Jupyter notebook file named "SIC_northern.ipynb" performs the following functions:
-(1) Read AMSR sea ice concentration data (.h5 format)
-(2) Mapping of sea ice concentration
-(3)
+### (1) Read AMSR sea ice concentration data (.h5 format)
+### (2) Mapping of sea ice concentration
+### (3)
 
 Following Python packages are required to run this notebook file successfully.
 - pandas: 
