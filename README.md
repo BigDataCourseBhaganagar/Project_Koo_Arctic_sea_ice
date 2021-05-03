@@ -41,7 +41,7 @@ Jupyter notebook file named "SIC_northern.ipynb" performs the following function
 ### (5) Principal component analysis (PCA)
 - Reduce dimensions of SIC data by using PCA components
 <p align="left">
-  <img src="/images/PCA.png" width="700" height = "400" title="hover text">
+  <img src="/images/PCA.png" width="700" height = "200" title="hover text">
 </p>
 
 ## 3. Necessary Python packages
