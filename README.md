@@ -23,18 +23,26 @@ Jupyter notebook file named "SIC_northern.ipynb" performs the following function
 - Yearly/monthly trend of sea ice extent for the Arctic region and 10 sub-regions
 - Fourier transform to understand period trend of SIE
 <p align="left">
-  <img src="/images/temporal_analysis.png" width="800" title="hover text">
+  <img src="/images/temporal_analysis.png" width="700" title="hover text">
 </p>
 
 ### (4) Dendrogram
 - Draw and analyze dendrograms to figure out the hierarchical structure of SIE by region and time.
-![](/images/Dendrograms.png)
+<p align="left">
+  <img src="/images/Dendrograms.png" width="700" title="hover text">
+</p>
+
 ### (5) Statistical moments (skewness and kurtosis)
 - Draw and analyze skeness and kurtosis of SIE with various smooth size
-- ![](/images/skewness_kurtosis.png)
+<p align="left">
+  <img src="/images/skewness_kurtosis.png" width="700" title="hover text">
+</p>
+
 ### (5) Principal component analysis (PCA)
 - Reduce dimensions of SIC data by using PCA components
-![](/images/PCA.png)
+<p align="left">
+  <img src="/images/PCA.png" width="700" title="hover text">
+</p>
 
 ## 3. Necessary Python packages
 Following Python packages are required to run this notebook file successfully.
