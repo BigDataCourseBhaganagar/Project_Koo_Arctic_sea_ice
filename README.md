@@ -9,9 +9,18 @@ The AMSR (Advanced Microwave Scanning Radiometer) data are available via Nationa
 
 ## 2. Code capabilities
 Jupyter notebook file named "SIC_northern.ipynb" performs the following functions:
-#### (1) Read AMSR sea ice concentration data (.h5 format)
-#### (2) Mapping of sea ice concentration
-#### (3)
+### (1) Read AMSR sea ice concentration data (.h5 format)
+### (2) Mapping of sea ice concentration
+### (3) Temporal analysis of sea ice extent (SIE)
+### (4) Dendrogram
+- Draw and analyze dendrograms to figure out the hierarchical structure of SIE by region and time.
 
 Following Python packages are required to run this notebook file successfully.
-- pandas: 
+- h5py: read hdf files
+- pandas: organize the data into dataframe by time and by region
+- numpy: read hdf files and variables as numpy arrays
+- matplotlib: plot and map the result
+- astrodendfro: plot and analyze dendrograms
+- scikit-learn: conduct PCA analysis
+
+
