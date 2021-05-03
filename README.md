@@ -42,7 +42,7 @@ Jupyter notebook file named "SIC_northern.ipynb" performs the following function
 ### (5) Statistical moments (skewness and kurtosis)
 - Draw and analyze skeness and kurtosis of SIE with various smooth size
 <p align="left">
-  <img src="/images/skewness_kurtosis.png" width="700" title="hover text">
+  <img src="/images/skewness_kurtosis.png" width="800" title="hover text">
 </p>
 
 ### (5) Principal component analysis (PCA)
