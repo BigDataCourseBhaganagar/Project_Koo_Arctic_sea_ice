@@ -15,15 +15,19 @@ Jupyter notebook file named "SIC_northern.ipynb" performs the following function
 - Read .h5 files as numpy arrays (size: (448, 304, 3175))
 ### (2) Mapping of sea ice concentration
 - Draw yearly/monthly maps of Arctic sea ice concentration
+![](/images/SIC_maps.png)
 ### (3) Temporal analysis of sea ice extent (SIE)
 - Yearly/monthly trend of sea ice extent for the Arctic region and 10 sub-regions
 - Fourier transform to understand period trend of SIE
+![](/images/temporal_analysis.png)
 ### (4) Dendrogram
 - Draw and analyze dendrograms to figure out the hierarchical structure of SIE by region and time.
+![](/images/Demdrograms.png)
 ### (5) Statistical moments (skewness and kurtosis)
 - Draw and analyze skeness and kurtosis of SIE with various smooth size
 ### (5) Principal component analysis (PCA)
 - Reduce dimensions of SIC data by using PCA components
+![](/images/PCA.png)
 
 ## 3. Necessary Python packages
 Following Python packages are required to run this notebook file successfully.
