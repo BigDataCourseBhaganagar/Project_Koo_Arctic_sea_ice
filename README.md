@@ -15,10 +15,14 @@ Jupyter notebook file named "SIC_northern.ipynb" performs the following function
 - Read .h5 files as numpy arrays (size: (448, 304, 3175))
 ### (2) Mapping of sea ice concentration
 - Draw yearly/monthly maps of Arctic sea ice concentration
+
+
 <p align="center">
   <img src="/images/SIC_maps.png" width="350" title="hover text">
   <img src="/images/SIC_maps.png" width="350" alt="accessibility text">
 </p>
+
+
 ![](/images/SIC_maps.png)
 ### (3) Temporal analysis of sea ice extent (SIE)
 - Yearly/monthly trend of sea ice extent for the Arctic region and 10 sub-regions
