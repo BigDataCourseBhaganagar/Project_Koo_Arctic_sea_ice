@@ -27,7 +27,7 @@ Jupyter notebook file named "SIC_northern.ipynb" performs the following function
 </p>
 
 ### (3) Temporal analysis of sea ice extent (SIE)
-- Yearly/monthly trend of sea ice extent for the Arctic region and 10 sub-regions
+- Yearly/monthly trend of sea ice extent for the Arctic region and 11 sub-regions
 - Fast Fourier transform (FFT) to understand period trend of SIE
 <p align="left">
   <img src="/images/temporal_analysis.png" width="700" title="hover text">
