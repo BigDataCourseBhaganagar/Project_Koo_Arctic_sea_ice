@@ -33,6 +33,10 @@ Jupyter notebook file named "SIC_northern.ipynb" performs the following function
   <img src="/images/temporal_analysis.png" width="700" title="hover text">
 </p>
 
+<p align="left">
+  <img src="/images/Arctic_subregions.png" width="700" title="hover text">
+</p>
+
 ### (4) Dendrogram
 - Draw and analyze dendrograms to figure out the hierarchical structure of SIE by region and time.
 <p align="left">
