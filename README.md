@@ -1,6 +1,7 @@
-# Project_Koo_Arctic_sea_ice
+# Statistical Analysis of Sea Ice Extent in the Arctic Ocean using AMSR Passive Microwave Data
 - ME 5013 (Spring 2021) Big data analysis in extreme environments
 - Final project done by Younghyun Koo (younghyun.koo@utsa.edu): monitoring of Arctic sea ice concentration and extent using AMSR passive microwave satellite data
+- Last update: May 03 2021
 
 ## 1. Introduction
   Sea ice is an important indicator of recent global climate change. According to many previous studies, the extent and thickness of sea ice has been decreased continuously during last few decades. In particular, the Arctic sea ice has been decreased much faster than the Antarctic. In this project, I will examine the spatiotemporal variations of sea ice extent (SIE) over the Arctic by using spaceborne remote sensing data. Passive microwave (PMW) sensors have been actively used for monitoring of sea ice extent due to its advantages in data availability regardless of weather conditions or time. I will use one of the representative PMW sensors called AMSR (Advanced Microwave Scanning Radiometer) to characterize the spatiotemporal variations of Arctic sea ice extent from 2012 to present.
