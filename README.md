@@ -19,7 +19,6 @@ Jupyter notebook file named "SIC_northern.ipynb" performs the following function
 
 <p align="center">
   <img src="/images/SIC_maps.png" width="350" title="hover text">
-  <img src="/images/SIC_maps.png" width="350" alt="accessibility text">
 </p>
 
 
