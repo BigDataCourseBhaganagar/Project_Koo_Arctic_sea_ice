@@ -11,12 +11,14 @@
   Sea ice is an important indicator of recent global climate change. According to many previous studies, the extent and thickness of sea ice has been decreased continuously during last few decades. In particular, the Arctic sea ice has been decreased much faster than the Antarctic. In this project, I will examine the spatiotemporal variations of sea ice extent (SIE) over the Arctic by using spaceborne remote sensing data. Passive microwave (PMW) sensors have been actively used for monitoring of sea ice extent due to its advantages in data availability regardless of weather conditions or time. I will use one of the representative PMW sensors called AMSR (Advanced Microwave Scanning Radiometer) to characterize the spatiotemporal variations of Arctic sea ice extent from 2012 to present.
   
 ## 2. Data
-The AMSR (Advanced Microwave Scanning Radiometer) data are available via National Snow & Ice Data Center (NSIDC) website (https://nsidc.org/data/AU_SI25/versions/1). This product is available from July 2012, so about 3,200 files (~40 MB per each file, total ~128 GB) are available. Due to the authorization issue for the access to the NASA Earthdata, I coulnd not access to this data remotely, but I downloaded all of the data by using Python code for the bulk downloads (see nsidc-download_AU_SI25.001_2021-04-27.py).
+The AMSR-E/AMSR-2 data are available via National Snow & Ice Data Center (NSIDC) website (https://nsidc.org/data/AU_SI25/versions/1). This product is available from July 2012, so about 3,200 files (~40 MB per each file, total ~128 GB) are available right now. These files contain 25-km resolution sea ice concentration (SIC) calculated by the NASA algorithm, and the Arctic data have 448 X 304 grid sizes. Due to the authorization issue for the access to the NASA Earthdata, I coulnd not access to this data remotely, but I downloaded all of the data by using Python code for the bulk downloads (see nsidc-download_AU_SI25.001_2021-04-27.py).
 
 ## 2. Code capabilities
 Jupyter notebook file named "SIC_northern.ipynb" performs the following functions:
 ### (1) Read AMSR sea ice concentration data (.h5 format)
 - Read .h5 files as numpy arrays (size: (448, 304, 3175))
+- Remove and interpolate invalid data
+
 ### (2) Mapping of sea ice concentration
 - Draw yearly/monthly maps of Arctic sea ice concentration
 <p align="left">
@@ -25,7 +27,7 @@ Jupyter notebook file named "SIC_northern.ipynb" performs the following function
 
 ### (3) Temporal analysis of sea ice extent (SIE)
 - Yearly/monthly trend of sea ice extent for the Arctic region and 10 sub-regions
-- Fourier transform to understand period trend of SIE
+- Fast Fourier transform (FFT) to understand period trend of SIE
 <p align="left">
   <img src="/images/temporal_analysis.png" width="700" title="hover text">
 </p>
