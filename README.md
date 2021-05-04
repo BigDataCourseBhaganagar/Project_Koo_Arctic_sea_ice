@@ -62,7 +62,7 @@ Following Python packages are required to run this notebook file successfully.
 - numpy: read hdf files and variables as numpy arrays (https://numpy.org/)
 - matplotlib: plot and map the result (https://matplotlib.org/)
 - astrodendro: plot and analyze dendrograms (https://dendrograms.readthedocs.io/en/stable/)
-- scikit-learn: conduct PCA analysis (https://scikit-learn.org/stable/)
+- scikit-learn: conduct PCA analysis and statistical moments (https://scikit-learn.org/stable/)
 
 ## 4. Hypothesis
 According to many previous studies and papers, the Arctic sea ice extent has been decreased during last few decades. By using AMSR sea ice data, I will examine this decreasing trend continues during the last decade (2012-). If so, I will explore which Arctic subregion has experienced the largest decrease in sea ice covers.
