@@ -70,7 +70,7 @@ According to many previous studies and papers, the Arctic sea ice extent has bee
 ### Basic hypothesis:
 * Arctic sea ice extent has decreased/increased during the last decade.
 * Each Arctic sub-region shows different changes in sea ice extent.
-* The spatial distribution of Arctic sea ice has a distinctive hierarchical structure.
+* The spatiotemporal distribution of Arctic sea ice has a distinctive hierarchical structure.
 
 
 ## 5. Expected results
