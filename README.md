@@ -2,9 +2,9 @@
   <img src="/images/UTSA_Logo_Website_UTSA_Logo_Left Justified.png" height="80" title="hover text">
 </p>
 
-# Statistical Analysis of Sea Ice Extent in the Arctic Ocean using AMSR Passive Microwave Data
+# Statistical Analysis of Sea Ice Extent in the Arctic Ocean using AMSR Passive Microwave Satellite Data
 - ME 5013 (Spring 2021) Big data analysis in extreme environments
-- Final project done by Younghyun Koo (younghyun.koo@utsa.edu): monitoring of Arctic sea ice concentration and extent using AMSR passive microwave satellite data
+- Final project done by Younghyun Koo (younghyun.koo@utsa.edu): monitoring of Arctic sea ice concentration and extent using AMSR passive microwave (PMW) satellite data
 - Last update: May 03 2021
 
 ## 1. Introduction
@@ -67,6 +67,7 @@ Following Python packages are required to run this notebook file successfully.
 ## 4. Hypothesis
 According to many previous studies and papers, the Arctic sea ice extent has been decreased during last few decades. By using AMSR sea ice data, I will examine this decreasing trend continues during the last decade (2012-). If so, I will explore which Arctic subregion has experienced the largest decrease in sea ice covers.
 
+### Basic hypothesis:
 [1] Arctic sea ice extent has decreased/increased during the last decade.
 
 [2] Each Arctic sub-region shows different changes in sea ice extent.
