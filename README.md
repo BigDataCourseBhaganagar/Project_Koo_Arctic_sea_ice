@@ -13,6 +13,7 @@
 ## 2. Data
 The AMSR-E/AMSR-2 data are available via National Snow & Ice Data Center (NSIDC) website (https://nsidc.org/data/AU_SI25/versions/1). This product is available from July 2012, so about 3,200 files (~40 MB per each file, total ~128 GB) are available right now. These files contain 25-km resolution sea ice concentration (SIC) calculated by the NASA algorithm, and the Arctic data have 448 X 304 grid sizes. Due to the authorization issue for the access to the NASA Earthdata, I coulnd not access to this data directly via web link, but I downloaded all of the data by using Python code for the bulk downloads (see nsidc-download_AU_SI25.001_2021-04-27.py). After I read the Arctic sea ice concentration data, I saved this numpy array as .npy file (~1.6 GB).
 - Google drive link to the saved numpy array file (.npy): https://drive.google.com/file/d/1APbeRfhyeKb67eErScoJgeB227UCcmvQ/view?usp=sharing).
+- All mapping & statistical analysis works can be done with the numpy arrays (sic_con.npy, lat.npy, lon.npy).
 
 ## 2. Code capabilities
 Jupyter notebook file named "SIC_northern.ipynb" performs the following functions:
